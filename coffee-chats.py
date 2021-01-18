@@ -1,21 +1,20 @@
 import random
 
 history = {
-    "Adam": ["Victor", "Aastha", "Juan", "Joseph"],
-    "Victor": ["Aastha", "Adam", "Hau", "Kyle"],
-    "Aastha": ["Adam", "Victor", "Evan", "McKensey"],
-    "Hau": ["Matthew", "McKensey", "Kyle", "Victor"],
-    "Matthew": ["Hau", "McKensey", "Tae", "Wendy"],
-    "McKensey": ["Hau", "Matthew", "Evan", "Aastha"],
-    "Cristina": ["Joseph", "Tae", "Carlos", "Nick"],
-    "Joseph": ["Cristina", "Tae", "Juan", "Adam"],
-    "Tae": ["Cristina", "Joseph", "Wendy", "Matthew"],
-    "Wendy": ["Kyle", "Carlos", "Tae", "Matthew"],
-    "Kyle": ["Carlos", "Wendy", "Victor", "Hau"],
-    "Carlos": ["Wendy", "Kyle", "Cristina", "Nick"],
-    "Nick": ["Juan", "Evan", "Carlos", "Cristina"],
-    "Juan": ["Nick", "Evan", "Adam", "Joseph"],
-    "Evan": ["Nick", "Juan", "Aastha", "McKensey"]
+    "Adam": ["Carlos", "Tae"],
+    "Victor": ["Evan", "Joseph", "McKensey"],
+    "Aastha": ["Cristina", "Kyle"],
+    "Hau": ["Nick", "Wendy"],
+    "McKensey": ["Joseph", "Victor", "Evan"],
+    "Cristina": ["Aastha", "Kyle"],
+    "Joseph": ["Evan", "Victor", "McKensey"],
+    "Tae": ["Carlos", "Adam"],
+    "Wendy": ["Nick", "Hau"],
+    "Kyle": ["Cristina", "Aastha"],
+    "Carlos": ["Adam", "Tae"],
+    "Nick": ["Wendy", "Hau"],
+    "Evan": ["Victor", "Jospeh", "McKensey"],
+    "Ethan": []
 }
 
 members = list(history.keys())
